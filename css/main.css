@@ -12,6 +12,14 @@ Line height: 1.5
 Colours: #c9b5ab, #8f2440, #222, #3f1622 **/
 
 h1 {
-  font-family: 'PT Sans';, serif;
+  font-family: 'PT Sans', serif;
   color: #3f1622;
+}
+
+header {
+  background-color: #c9b5ab;
+}
+
+main {
+  background-color: #c9b5ab;
 }
