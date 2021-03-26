@@ -17,14 +17,14 @@ img {
 }
 
 figcaption {
-  font-family: "PT Serif", sans-serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   font-style: italic;
   text-align: center;
 }
 
 h1 {
-  font-family: "PT Sans", serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
 }
@@ -39,9 +39,9 @@ main {
 }
 
 .first-paragraph {
-  font-family: "PT Serif", sans-serif;
+  font-family: "PT Serif", serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 nav ol {
@@ -51,7 +51,7 @@ nav ol {
 
 nav a {
   list-style-type: none;
-  font-family: "PT Sans", serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   color: #8f2440;
 }
@@ -68,4 +68,29 @@ a:hover {
 footer a {
   color: #8f2440;
   text-decoration: none;
+}
+
+b {
+  font-weight: bold;
+}
+
+.cite {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+strong {
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+}
+
+footer {
+  background-color: #c9b5ab;
+  padding: .8rem;
 }
