@@ -18,8 +18,16 @@ h1 {
 
 header {
   background-color: #c9b5ab;
+  padding: 1rem;
 }
 
 main {
   background-color: #c9b5ab;
+  padding: 1rem;
+}
+
+nav ol {
+  list-style-type: none;
+  font-family: 'PT Sans', serif;
+  font-size: 1.125rem;
 }
