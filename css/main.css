@@ -11,23 +11,61 @@ Text sizes: 1.5rem, 1.125rem, 0.8rem
 Line height: 1.5
 Colours: #c9b5ab, #8f2440, #222, #3f1622 **/
 
+img {
+  width: 100%;
+  align-items: center;
+}
+
+figcaption {
+  font-family: "PT Serif", sans-serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  text-align: center;
+}
+
 h1 {
-  font-family: 'PT Sans', serif;
+  font-family: "PT Sans", serif;
+  font-size: 1.5rem;
   color: #3f1622;
 }
 
 header {
   background-color: #c9b5ab;
-  padding: 1rem;
 }
 
 main {
   background-color: #c9b5ab;
-  padding: 1rem;
+  padding: .8rem;
+}
+
+.first-paragraph {
+  font-family: "PT Serif", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 nav ol {
   list-style-type: none;
-  font-family: 'PT Sans', serif;
+  text-decoration: none;
+}
+
+nav a {
+  list-style-type: none;
+  font-family: "PT Sans", serif;
   font-size: 1.125rem;
+  color: #8f2440;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+footer a {
+  color: #8f2440;
+  text-decoration: none;
 }
