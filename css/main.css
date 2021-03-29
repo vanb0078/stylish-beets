@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  background-color: #c9b5ab;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -18,7 +20,7 @@ img {
 
 figcaption {
   font-family: "PT Serif", serif;
-  font-size: 1.125rem;
+  font-size: .8rem;
   font-style: italic;
   text-align: center;
 }
@@ -35,13 +37,12 @@ header {
 
 main {
   background-color: #c9b5ab;
-  padding: .8rem;
 }
 
 .first-paragraph {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: .8rem;
 }
 
 nav ol {
@@ -78,7 +79,7 @@ b {
   font-family: "PT Serif", serif;
   font-style: italic;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: .1rem;
 }
 
 strong {
@@ -92,5 +93,5 @@ h2 {
 
 footer {
   background-color: #c9b5ab;
-  padding: .8rem;
+  padding: .1rem;
 }
